@@ -1,0 +1,139 @@
+.dgimg{
+    transform: rotate(30deg);
+    margin-left: 10%;
+    position: absolute ;
+    
+}
+.navbar{
+    font-weight: bold;
+    font-size: 1.20rem;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.heading button{
+margin:15% 3% ;
+--bs-btn-font-size: 1.50rem;
+}
+.heading h1{
+    font-size:3rem;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+#title{
+    background-color: #FF4c68;
+} 
+#features{
+    padding: 12% 15%;
+    position: relative;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.col-lg-4{
+    text-align: center;
+}
+.icon{
+    color: #ef8172;
+}
+.icon:hover{
+    color: #FF4c68;
+}
+h3{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: bold;
+}
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+}
+.testimg{
+    width: 10%;
+    border-radius: 100%;
+}
+.testimonial-text{
+    font-family:'Montserrat', sans-serif ;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+
+}
+.press-img{
+    margin: 4%;
+    width: 15%;
+}
+.carousel-inner{
+    padding: 7% 15% ;
+}
+
+@media (max-width:995px){
+    .dgimg{
+        position: static;
+        transform: rotate(0);
+        width:60%;
+        text-align: center;
+
+    }
+    .heading h1{
+        text-align: center;
+        
+    }
+    .heading{
+        text-align: center;
+        
+    }
+}
+
+#cta{
+    background-color: #FF4c68;
+    text-align: center;
+    height:40% !important;
+    
+}
+
+#cta h3{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    padding: 3% 15%;
+}
+.ctabtn{
+    padding: 3%;
+}
+#cta button{
+    margin: 1%;
+}
+
+#footer{
+    text-align: center;
+    margin: 4% 15%;
+}
+.card{
+    padding-left: 9%;
+    padding-top: 4%;
+}
+#pricing h2,p{
+    text-align: center;
+    
+    
+}
+.pricinghead{
+    margin: 2%;
+}
+#pricing h2{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
